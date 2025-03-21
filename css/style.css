@@ -1,4 +1,4 @@
-*{ margin: 0; box-sizing: border-box;}
+*{ margin: 0; box-sizing: border-box; scroll-behavior:smooth;}
 a{ text-decoration: none;}
 ul{ list-style: none;}
 button{ cursor:  pointer; padding: 0;}
@@ -96,6 +96,11 @@ h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
 .Number-9 canvas{ background: #000; margin-top:80px; max-width: 100%;}
 .Number-9 h3{color: var(--red); font-size: 18px; line-height: 60px; margin-left: 115px;}
 .Number-9 p{ font-size: 14px; font-weight: 100; margin-top: 10px; margin-left: 115px;}
+.Number-9 .data{background:conic-gradient(var(--red) 75%,#fff 75%); border-radius: 50%; width: 11rem; height: 11rem; margin-top:5rem; padding: 10px;}
+.Number-9 .data.d25{background:conic-gradient(var(--red) 25%,#fff 25%);}
+.Number-9 .data1{width: 100%; background: #fff; border-radius: 50%; height: 100%; display: grid; place-items: center;}
+.Number-9 .data1 span{font-weight: bolder; color: var(--red);}
+
 
 .accordion li{ margin-bottom: 10px;}
 .accordion a{color:#4a4949; font: 700 14px/22px; border: 1px solid #898989; border-radius: 10px; padding: 10px 15px; display: block;}
