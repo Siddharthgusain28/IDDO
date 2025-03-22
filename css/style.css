@@ -19,12 +19,12 @@ body{font: 16px var(--ff);}
 
 header{ background: #000; color: #fff;  z-index: 1; }
 header .btn{border:2px solid #f00 ;}
-header h1{ font-size: 30px;}
+header h1{ font-size: 2rem;}
 header h1 a{ color: inherit; display: inline-block; line-height: 80px;}
 nav{margin-left: -20px; }
 nav li{ margin: 5px; }
 nav a{color: inherit; display:block; padding: 0 15px;line-height: 80px;}
-.btn{ color: var(--red);font:16px var(--ff); width: 90px; height: 35px; background: none; border: 2px solid var(--red); border-radius: 10px;}
+.btn{ color: var(--red);font:1.1rem var(--ff); width: 90px; height: 35px; background: none; border: 2px solid var(--red); border-radius: 10px;}
 .menu{ display: none;}
 .menu span{ display: block; height: 2px; background: var(--red); margin: 6px 20px; transition: .6s; transform-origin: right center;}
 
@@ -34,13 +34,13 @@ nav a{color: inherit; display:block; padding: 0 15px;line-height: 80px;}
 
 .banner{ background-color: #666; color: #fff; padding: 15rem 0;}
 .banner p{font-size: 4rem; font-weight: 100;}
-.banner a{ color: #fff; font-size: 16px;}
-.banner button{ background: none; border: none; font-size: 10rem; margin-right: 30px; color: #fff;}
+.banner a{ color: #fff; font-size: 1.1rem;}
+.banner button{ background: none; border: none; font-size: 10rem; margin-right: 2rem; color: #fff;}
 
 
 .Number-3{ background: var(--red); color: #fff; padding: 50px 0; }
 h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
-.Number-3 h3{font-size:20px;}
+.Number-3 h3{font-size:1.4rem;}
 .Number-3 p{ font-size: 1rem; font-weight: 500;}
 
 
@@ -49,7 +49,7 @@ h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
 
 
 .Number-5{ background: #ebebeb; color: #000; padding-top: 100px;}
-.Number-5 button{ margin:30px 10px; margin-left:-5px;}
+.Number-5 button{ margin:2rem 10px; margin-left:-5px;}
 .btn.active{background: var(--red); color: #fff;}
 
 .all:is(:nth-last-child(7),:nth-last-child(8),:nth-last-child(9)){display: none;}
@@ -57,45 +57,45 @@ h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
 
 
 .work{position: relative; text-align: center; overflow: hidden;}
-.work .over{position: absolute; left: 0;right: 0; bottom:-100px; background: #fff; padding: 20px 0;opacity: 0; transition: 0.5s;} 
-.over h3{ color: var(--red);font-size: 18px;line-height: 40px;}
+.work .over{position: absolute; left: 0;right: 0; bottom:-100px; background: #fff; padding: 1.3rem 0;opacity: 0; transition: 0.5s;} 
+.over h3{ color: var(--red);font-size: 1.2rem;line-height: 40px;}
 .over p{ color: #898989; font-weight: 100; font-size: 14px;line-height: 20px;}
 .work:hover .over{opacity: 1; bottom: 0;}
 .Plus{  font-size: 36px; color: var(--red); border: none; margin: 30px 0;}
 
 
-.Number-6{ background: rgb(102,102,102); color: #fff; text-align: center;padding: 60px 0 30px;}
+.Number-6{ background: rgb(102,102,102); color: #fff; text-align: center;padding: 4rem 0 2rem;}
 .rating .rating-1 strong{ display: block; margin:10px 0 30px ;}
-.rating .rating-1 p{ font-size: 2rem; font-weight: 100; line-height:41px; margin-bottom :20px; }
+.rating .rating-1 p{ font-size: 2rem; font-weight: 100; line-height:41px; margin-bottom :1.4rem; }
 .Number-6 .bx-wrapper img{ margin: auto;}
 .Number-6 .bx-wrapper{ background: none; border: none;}
 .Number-6 .bx-wrapper .bx-pager.bx-default-pager a{ border: 2px solid #fff; font-size: 0; padding: 7px; border-radius: 50%;}
-.Number-6 .bx-pager-item{display: inline; margin: 15px;}
+.Number-6 .bx-pager-item{display: inline; margin: 1rem;}
 .Number-6 .bx-wrapper .bx-pager.bx-default-pager a.active,.Number-6 .bx-wrapper .bx-pager.bx-default-pager a:focus,.Number-6 .bx-wrapper .bx-pager.bx-default-pager a:hover{ background: #fff;}
 
 
 .Number-7{ padding: 100px;background: #fff; color:#363636;}
 .Number-7 img{ border-radius: 50%;}
-.worker{ position: relative; margin-top: 80px;}
+.worker{ position: relative; margin-top: 5rem;}
 .social{ position: absolute; left: 100px; top: 60px;}
 .social a{display: block; line-height: 60px; font-size: 24px; background: var(--red); color: #fff; margin-right: 10px; width: 50px; height: 50px; border-radius: 50%; text-align: center;}
-.gap{ margin: 50px 0 0 100px;}
-.worker h3{ margin-bottom: 15px; font-size:2rem; color: var(--red);}
+.gap{ margin: 3rem 0 0 6rem;}
+.worker h3{ margin-bottom: 1rem; font-size:2rem; color: var(--red);}
 .worker small{font-size: 1.5rem; color: #535252;}
 .worker p{ margin-top: 2rem;}
 
 
 .Number-8{ background:rgb(102,102,102); color:#fff; padding: 80px;}
 .items{text-align: center;}
-.item{font-size: 72px;  }
-.items p{ font-size: 72px; font-weight: 100;}
-.items h3{font-size: 18px; }
+.item{font-size: 5rem;  }
+.items p{ font-size: 5rem; font-weight: 100;}
+.items h3{font-size: 1.2rem; }
 
 
-.Number-9{ background: #fff; padding: 100px 0;}
+.Number-9{ background: #fff; padding: 6rem 0;}
 .Number-9 canvas{ background: #000; margin-top:80px; max-width: 100%;}
 .Number-9 h3{color: var(--red); font-size: 18px; line-height: 60px; margin-left: 115px;}
-.Number-9 p{ font-size: 14px; font-weight: 100; margin-top: 10px; margin-left: 115px;}
+.Number-9 p{ font-size: 1rem; font-weight: 100; margin-top: 10px; margin-left: 115px;}
 .Number-9 .data{background:conic-gradient(var(--red) 75%,#fff 75%); border-radius: 50%; width: 11rem; height: 11rem; margin-top:5rem; padding: 10px;}
 .Number-9 .data.d25{background:conic-gradient(var(--red) 25%,#fff 25%);}
 .Number-9 .data1{width: 100%; background: #fff; border-radius: 50%; height: 100%; display: grid; place-items: center;}
@@ -103,7 +103,7 @@ h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
 
 
 .accordion li{ margin-bottom: 10px;}
-.accordion a{color:#4a4949; font: 700 14px/22px; border: 1px solid #898989; border-radius: 10px; padding: 10px 15px; display: block;}
+.accordion a{color:#4a4949; font: 700 1rem/22px; border: 1px solid #898989; border-radius: 10px; padding: 10px 1rem; display: block;}
 .accordion span{ font-size: 24px; margin-right: 10px;}
 .accordion p{ display: none; margin:20px;}
 .accordion li a.active{ color: var(--red);}
@@ -123,11 +123,11 @@ h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
 .Number-11 .box{ background:#ebebeb; margin: 30px; width: 170px; height: 100px;}
 
 
-.Number-12{ background:#ebebeb; padding: 100px 0;}
-.Number-12 address{ font-style: normal; margin-top: 40px; font-size: 1.5rem; color: #5b5a5a;}
+.Number-12{ background:#ebebeb; padding: 6rem 0;}
+.Number-12 address{ font-style: normal; margin-top: 3rem; font-size: 1.5rem; color: #5b5a5a;}
 .Number-12 ul a span{ color:var(--red); font-size: 1.5rem; }
-.Number-12 li{ margin-right: 1rem; margin-top: 30px;}
-.Number-12 form{ margin-top: 50px;}
+.Number-12 li{ margin-right: 1rem; margin-top: 2rem;}
+.Number-12 form{ margin-top: 3.3rem;}
 .Number-12 label{ display: block; border: 2px solid #000; padding: 17px;}
 .Number-12 span{ font-size: 16px;}
 .Number-12 b{ font-size: 16px;}
@@ -135,14 +135,14 @@ h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
 .Number-12 textarea{ resize: none; background: none; border: none; vertical-align: top;}
 .Number-12 button{ background: #fff; color: var(--red); border: none; width: 100%;
 height: 80px; border-radius: 10px; font-size: 16px; }
-.Number-12 button span.fa{ font-size: 36px; margin-left: 10px; vertical-align:middle;}
+.Number-12 button span.fa{ font-size: 2.4rem; margin-left: 10px; vertical-align:middle;}
 .Number-12 input,textarea:focus{ outline:  none; }
 .Number-12 label:focus-within{ border-color: var(--red);}
 
 
 .Number-13{ background: #000; color: #fff; padding: 50px 0; text-align: center;}
-.Number-13 h3{ text-align: center; font-size: 30px;}
-.Number-13 p{  text-align: center; font-size: 14px;}
+.Number-13 h3{ text-align: center; font-size: 2rem;}
+.Number-13 p{  text-align: center; font-size: 1rem;}
 
 
 footer button{ background: none; color: var(--red); border: none; font-size: 3rem; }
