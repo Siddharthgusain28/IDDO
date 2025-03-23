@@ -38,7 +38,7 @@ nav a{color: inherit; display:block; padding: 0 15px;line-height: 80px;}
 .banner button{ background: none; border: none; font-size: 10rem; margin-right: 2rem; color: #fff;}
 
 
-.Number-3{ background: var(--red); color: #fff; padding: 50px 0; }
+.Number-3{ background: var(--red); color: #fff; padding: 3rem 0; }
 h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
 .Number-3 h3{font-size:1.4rem;}
 .Number-3 p{ font-size: 1rem; font-weight: 500;}
@@ -48,7 +48,7 @@ h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
 .Number-4 span{font-size: 2rem;}
 
 
-.Number-5{ background: #ebebeb; color: #000; padding-top: 100px;}
+.Number-5{ background: #ebebeb; color: #000; padding-top: 6rem;}
 .Number-5 button{ margin:2rem 10px; margin-left:-5px;}
 .btn.active{background: var(--red); color: #fff;}
 
@@ -74,7 +74,7 @@ h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
 .Number-6 .bx-wrapper .bx-pager.bx-default-pager a.active,.Number-6 .bx-wrapper .bx-pager.bx-default-pager a:focus,.Number-6 .bx-wrapper .bx-pager.bx-default-pager a:hover{ background: #fff;}
 
 
-.Number-7{ padding: 100px;background: #fff; color:#363636;}
+.Number-7{ padding: 6rem;background: #fff; color:#363636;}
 .Number-7 img{ border-radius: 50%;}
 .worker{ position: relative; margin-top: 5rem;}
 .social{ position: absolute; left: 100px; top: 60px;}
@@ -85,7 +85,7 @@ h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
 .worker p{ margin-top: 2rem;}
 
 
-.Number-8{ background:rgb(102,102,102); color:#fff; padding: 80px;}
+.Number-8{ background:rgb(102,102,102); color:#fff; padding: 5rem;}
 .items{text-align: center;}
 .item{font-size: 5rem;  }
 .items p{ font-size: 5rem; font-weight: 100;}
@@ -115,7 +115,7 @@ h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
 .Number-10{ background: var(--red); color: #fff;}
 .Number-10 input{ background: none; border: none; padding: 2rem 0; line-height: 20px; font-size: 2rem; color: #fff; outline: none;}
 .Number-10 input::placeholder{ color: #fff; font:500 2rem var(--ff);}
-
+.Number-10 form{justify-content: center;}
 .Number-10 button{ background: #fff; font-size: 14px; width:6rem; height:3rem;  line-height: 20px;}
 
 .Number-11{ background:#7f7f7f;}
@@ -235,6 +235,7 @@ nav a{ line-height: 40px; text-align: right;}
     .Number-9 h3{ margin-left: 25px;}
     .Number-9 p{ margin-left: 25px;}
     iframe{ width: 330px; aspect-ratio: 16/9;}
+    .Number-7{padding: 4rem;}
     
     
 
