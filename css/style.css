@@ -115,7 +115,7 @@ h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid;}
 .Number-10{ background: var(--red); color: #fff;}
 .Number-10 input{ background: none; border: none; padding: 2rem 0; line-height: 20px; font-size: 2rem; color: #fff; outline: none;}
 .Number-10 input::placeholder{ color: #fff; font:500 2rem var(--ff);}
-.Number-10 form{justify-content: center;}
+.Number-10 form{justify-content: center; padding: 0 1rem;}
 .Number-10 button{ background: #fff; font-size: 14px; width:6rem; height:3rem;  line-height: 20px;}
 
 .Number-11{ background:#7f7f7f;}
